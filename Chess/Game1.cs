@@ -15,6 +15,8 @@ namespace Chess
         Vector2 position;
         Sprite square;
         Sprite[,] board = new Sprite[8,8]; 
+
+        
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -27,8 +29,8 @@ namespace Chess
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            graphics.PreferredBackBufferHeight = 800;
-            graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = 1024;
+            graphics.PreferredBackBufferWidth = 1024;
             graphics.ApplyChanges();
             base.Initialize();
         }
@@ -43,6 +45,8 @@ namespace Chess
             pixel = new Texture2D(GraphicsDevice, 1, 1);
             pixel.SetData(new Color[] { Color.Black });
             square = new Sprite(pixel, position, null, Color.White, 0f, new Vector2(0, 0), new Vector2(100, 100), SpriteEffects.None, 0);
+
+        
         }
 
         protected override void Update(GameTime gameTime)
@@ -60,7 +64,16 @@ namespace Chess
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
             square.Draw(spriteBatch);
-
+            /*
+            for (int i = 0; i < board.Length; i++)
+            {
+                for (int j = 0; j < board.Length; j++)
+                {
+                    board[i, j].Draw(spriteBatch);
+                    spriteBatch.Draw(pixel, board[i,j].SourceRectangle,  Color.White);
+                }
+            }
+            */
             spriteBatch.End();
 
             // TODO: Add your drawing code here
