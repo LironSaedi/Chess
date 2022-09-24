@@ -1,0 +1,17 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"Z:/Chess/Chess/Content/b_bishop_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/b_bishop_png_128px.xnb","TextureProcessor","Texture2DContent",3356,65109,0.2379132
+"Z:/Chess/Chess/Content/b_king_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/b_king_png_128px.xnb","TextureProcessor","Texture2DContent",3905,65109,0.160027
+"Z:/Chess/Chess/Content/b_knight_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/b_knight_png_128px.xnb","TextureProcessor","Texture2DContent",4021,58965,0.1193182
+"Z:/Chess/Chess/Content/b_pawn_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/b_pawn_png_128px.xnb","TextureProcessor","Texture2DContent",2550,53845,0.122448
+"Z:/Chess/Chess/Content/b_queen_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/b_queen_png_128px.xnb","TextureProcessor","Texture2DContent",4953,72277,0.1211263
+"Z:/Chess/Chess/Content/b_rook_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/b_rook_png_128px.xnb","TextureProcessor","Texture2DContent",1526,59477,0.1288473
+"Z:/Chess/Chess/Content/square brown dark_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/square brown dark_png_128px.xnb","TextureProcessor","Texture2DContent",413,65621,0.1327416
+"Z:/Chess/Chess/Content/square brown light_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/square brown light_png_128px.xnb","TextureProcessor","Texture2DContent",414,65621,0.1041451
+"Z:/Chess/Chess/Content/square gray dark _png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/square gray dark _png_128px.xnb","TextureProcessor","Texture2DContent",411,65621,0.1483939
+"Z:/Chess/Chess/Content/square gray light _png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/square gray light _png_128px.xnb","TextureProcessor","Texture2DContent",411,65621,0.1198345
+"Z:/Chess/Chess/Content/w_bishop_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/w_bishop_png_128px.xnb","TextureProcessor","Texture2DContent",3348,65109,0.1117668
+"Z:/Chess/Chess/Content/w_king_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/w_king_png_128px.xnb","TextureProcessor","Texture2DContent",3915,65109,0.1103308
+"Z:/Chess/Chess/Content/w_knight_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/w_knight_png_128px.xnb","TextureProcessor","Texture2DContent",4064,58965,0.1120011
+"Z:/Chess/Chess/Content/w_pawn_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/w_pawn_png_128px.xnb","TextureProcessor","Texture2DContent",2555,53845,0.1478621
+"Z:/Chess/Chess/Content/w_queen_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/w_queen_png_128px.xnb","TextureProcessor","Texture2DContent",4868,72277,0.1080957
+"Z:/Chess/Chess/Content/w_rook_png_128px.png","Z:/Chess/Chess/Content/bin/DesktopGL/w_rook_png_128px.xnb","TextureProcessor","Texture2DContent",1521,59477,0.123584

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess.csproj": {}
+    "Z:\\Chess\\Chess\\Chess.csproj": {}
   },
   "projects": {
-    "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess.csproj": {
+    "Z:\\Chess\\Chess\\Chess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess.csproj",
+        "projectUniqueName": "Z:\\Chess\\Chess\\Chess.csproj",
         "projectName": "Chess",
-        "projectPath": "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess.csproj",
+        "projectPath": "Z:\\Chess\\Chess\\Chess.csproj",
         "packagesPath": "C:\\Users\\Liron.Saedi\\.nuget\\packages\\",
-        "outputPath": "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\obj\\",
+        "outputPath": "Z:\\Chess\\Chess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Liron.Saedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

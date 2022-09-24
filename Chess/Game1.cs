@@ -28,7 +28,7 @@ namespace Chess
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+             // TODO: Add your initialization logic here
             graphics.PreferredBackBufferHeight = 1024;
             graphics.PreferredBackBufferWidth = 1024;
             graphics.ApplyChanges();
@@ -45,7 +45,7 @@ namespace Chess
             pixel = new Texture2D(GraphicsDevice, 1, 1);
             pixel.SetData(new Color[] { Color.Black });
             square = new Sprite(pixel, position, null, Color.White, 0f, new Vector2(0, 0), new Vector2(100, 100), SpriteEffects.None, 0);
-
+            Texture2D bishop = Content.Load<Texture2D>("b_bishop_png_128px");
         
         }
 
@@ -74,6 +74,8 @@ namespace Chess
                 }
             }
             */
+            //spriteBatch.Draw();
+
             spriteBatch.End();
 
             // TODO: Add your drawing code here
