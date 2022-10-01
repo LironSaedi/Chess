@@ -107,11 +107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess\\Chess.csproj",
+      "projectUniqueName": "Z:\\Chess\\Chess\\Chess\\Chess.csproj",
       "projectName": "Chess",
-      "projectPath": "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess\\Chess.csproj",
+      "projectPath": "Z:\\Chess\\Chess\\Chess\\Chess.csproj",
       "packagesPath": "C:\\Users\\Liron.Saedi\\.nuget\\packages\\",
-      "outputPath": "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess\\obj\\",
+      "outputPath": "Z:\\Chess\\Chess\\Chess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Liron.Saedi\\AppData\\Roaming\\NuGet\\NuGet.Config",

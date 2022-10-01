@@ -11,6 +11,8 @@ namespace Chess
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
 
+        ScreenManager screenManager
+
         Texture2D pixel;
         Vector2 position;
         Sprite square;
