@@ -15,7 +15,7 @@ namespace Chess
 
         void Draw(GameTime gameTime, SpriteBatch spriteBatch);
 
-        void Update(GameTime gameTime, Input currentInput, previousInput);
+        void Update(GameTime gameTime, Input currentInput, Input previousInput);
     }
 
     interface IScreenManager

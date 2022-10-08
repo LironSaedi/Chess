@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-    internal class Pieces
+    internal abstract class Pieces
     {
 
     }
