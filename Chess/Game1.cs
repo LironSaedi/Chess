@@ -1,11 +1,30 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Chess
 {
+    using ContentService = ContentService<ContentEnum>;
+    enum ContentEnum
+    {
+        BlackBishop,
+        BlackKnight,
+        BlackKing,
+        BlackPawn,
+        BlackQueen,
+        BlackRook,
+        WhiteBishop,
+        WhiteKnight,
+        WhiteKing,
+        WhitePawn,
+        WhiteQueen,
+        WhiteRook,
+        
+    }
+
     public class Game1 : Game
     {
         private GraphicsDeviceManager graphics;
@@ -39,6 +58,20 @@ namespace Chess
 
         protected override void LoadContent()
         {
+            ContentService.instance.LoadContentFonts(Content, "Black Bishop", ContentEnum.BlackBishop);
+            ContentService.instance.LoadContentFonts(Content, "Black King", ContentEnum.BlackKing;
+            ContentService.instance.LoadContentFonts(Content, "Black Knight", ContentEnum.BlackKnight);
+            ContentService.instance.LoadContentFonts(Content, "Black Pawn", ContentEnum.BlackPawn);
+            ContentService.instance.LoadContentFonts(Content, "Black Queen", ContentEnum.BlackQueen);
+            ContentService.instance.LoadContentFonts(Content, "Black Rook", ContentEnum.BlackRook);
+            ContentService.instance.LoadContentFonts(Content, "White Bishop", ContentEnum.WhiteBishop);
+            ContentService.instance.LoadContentFonts(Content, "White King", ContentEnum.WhiteKing);
+            ContentService.instance.LoadContentFonts(Content, "White Knight", ContentEnum.WhiteKnight);
+            ContentService.instance.LoadContentFonts(Content, "White Pawn", ContentEnum.WhitePawn);
+            ContentService.instance.LoadContentFonts(Content, "White Queen", ContentEnum.WhiteQueen);
+            ContentService.instance.LoadContentFonts(Content, "White Rook", ContentEnum.WhiteRook);
+
+
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
             position = new Vector2(0, 0);
@@ -53,6 +86,8 @@ namespace Chess
 
         protected override void Update(GameTime gameTime)
         {
+
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
@@ -63,6 +98,7 @@ namespace Chess
 
         protected override void Draw(GameTime gameTime)
         {
+
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
             square.Draw(spriteBatch);
