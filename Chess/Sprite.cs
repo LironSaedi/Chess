@@ -21,6 +21,9 @@ namespace Chess
         public Vector2 Scale;
         public SpriteEffects Effects;
         public float LayerDepth;
+        private Texture2D gridSquares;
+        private Rectangle rectangle;
+        private Color darkGray;
 
         public Sprite(Texture2D texture, Vector2 position, Rectangle? sourceRectangle, Color color, float rotation, Vector2 origin, Vector2 scale, SpriteEffects effects, float layerDepth)
         {
@@ -33,6 +36,13 @@ namespace Chess
             Scale = scale;
             Effects = effects;
             LayerDepth = layerDepth;
+        }
+
+        public Sprite(Texture2D gridSquares, Rectangle rectangle, Color darkGray)
+        {
+            this.gridSquares = gridSquares;
+            this.rectangle = rectangle;
+            this.darkGray = darkGray;
         }
 
         public void Update()

@@ -19,7 +19,7 @@ namespace Chess
         public Dictionary<TEnum, SpriteFont> Fonts { get; private set; }
 
 
-        public static ContentService<TEnum> instance { get; } = new ContentService<TEnum>();
+        public static ContentService<TEnum> Instance { get; } = new ContentService<TEnum>();
         private ContentManager content;
 
         private ContentService()

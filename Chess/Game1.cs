@@ -58,18 +58,18 @@ namespace Chess
 
         protected override void LoadContent()
         {
-            ContentService.instance.LoadContentFonts(Content, "Black Bishop", ContentEnum.BlackBishop);
-            ContentService.instance.LoadContentFonts(Content, "Black King", ContentEnum.BlackKing;
-            ContentService.instance.LoadContentFonts(Content, "Black Knight", ContentEnum.BlackKnight);
-            ContentService.instance.LoadContentFonts(Content, "Black Pawn", ContentEnum.BlackPawn);
-            ContentService.instance.LoadContentFonts(Content, "Black Queen", ContentEnum.BlackQueen);
-            ContentService.instance.LoadContentFonts(Content, "Black Rook", ContentEnum.BlackRook);
-            ContentService.instance.LoadContentFonts(Content, "White Bishop", ContentEnum.WhiteBishop);
-            ContentService.instance.LoadContentFonts(Content, "White King", ContentEnum.WhiteKing);
-            ContentService.instance.LoadContentFonts(Content, "White Knight", ContentEnum.WhiteKnight);
-            ContentService.instance.LoadContentFonts(Content, "White Pawn", ContentEnum.WhitePawn);
-            ContentService.instance.LoadContentFonts(Content, "White Queen", ContentEnum.WhiteQueen);
-            ContentService.instance.LoadContentFonts(Content, "White Rook", ContentEnum.WhiteRook);
+            ContentService.Instance.LoadContentFonts(Content, "Black Bishop", ContentEnum.BlackBishop);
+            ContentService.Instance.LoadContentFonts(Content, "Black King", ContentEnum.BlackKing);
+            ContentService.Instance.LoadContentFonts(Content, "Black Knight", ContentEnum.BlackKnight);
+            ContentService.Instance.LoadContentFonts(Content, "Black Pawn", ContentEnum.BlackPawn);
+            ContentService.Instance.LoadContentFonts(Content, "Black Queen", ContentEnum.BlackQueen);
+            ContentService.Instance.LoadContentFonts(Content, "Black Rook", ContentEnum.BlackRook);
+            ContentService.Instance.LoadContentFonts(Content, "White Bishop", ContentEnum.WhiteBishop);
+            ContentService.Instance.LoadContentFonts(Content, "White King", ContentEnum.WhiteKing);
+            ContentService.Instance.LoadContentFonts(Content, "White Knight", ContentEnum.WhiteKnight);
+            ContentService.Instance.LoadContentFonts(Content, "White Pawn", ContentEnum.WhitePawn);
+            ContentService.Instance.LoadContentFonts(Content, "White Queen", ContentEnum.WhiteQueen);
+            ContentService.Instance.LoadContentFonts(Content, "White Rook", ContentEnum.WhiteRook);
 
 
 
