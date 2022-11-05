@@ -13,17 +13,5 @@ namespace Chess
         Pen
     }
 
-    internal class InputManager<T> where T : Enum
-    {
-        // An easy convienet way to grab all of the inputs
-        Dictionary<>
-    }
-
-    class Tempy
-    {
-        void Dosstuff()
-        {
-            InputManager<Temp> tempyy = new InputManager<Temp>();
-        }
-    }
+    
 }

@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chess.Content
+
+namespace Chess
 {
-    internal class Button
-    {
+
         class Button
         {
             private List<OptionsButton> panel;
@@ -59,7 +59,7 @@ namespace Chess.Content
                 }
             }
 
-            public Content.Button GetMarked()
+            public Chess.Button GetMarked()
             {
                 int idx = GetMarkedIndex();
                 if (idx == -1)
@@ -171,4 +171,3 @@ namespace Chess.Content
             }
         }
     }
-}

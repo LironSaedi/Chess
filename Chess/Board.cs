@@ -1,8 +1,7 @@
-﻿using Chess.Content;
-using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace Chess.Screens
+namespace Chess
 {
     using static Constants;
     class Board
