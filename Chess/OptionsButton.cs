@@ -1,9 +1,10 @@
 ﻿using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework;
 using System;
 
 namespace Chess
 {
-
+    
     enum OptionButtonState
     {
         Unmarked,
@@ -21,13 +22,13 @@ namespace Chess
 
         public bool AllowClickToUnmark = true;
 
-        public OptionsButton(Sprite2D sprite) : base(sprite)
+        public OptionsButton(Sprite sprite) : base(sprite)
         {
         }
-
+        /*
         public override void Update(Input currentInput, Input previousInput)
         {
-            if (currentInput.Contains(/*virtual mouse positin */)
+            if (currentInput.Contains(previousInput))
                 {
                 if (currentInput.Mouse.LeftButton == Microsoft.Xna.Framework.Input.ButtonState.Released &&
                     previousInput.Mouse.LeftButton == Microsoft.Xna.Framework.Input.ButtonState.Pressed)
@@ -113,4 +114,5 @@ namespace Chess
             MarkedState = OptionButtonState.Unmarked;
             OnUnMarked(EventArgs.Empty);
         }
+    */
     }

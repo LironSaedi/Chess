@@ -110,14 +110,14 @@ namespace Chess
                 }
             }
 
-
+        /*
             public void Update(Input current, Input previous)
             {
                 int marked = -1;
                 for (int i = 0; i < panel.Count; i++)
                 {
-                    OptionsButton btn = panel[i];
-                    OptionButtonState state = btn.MarkedState;
+                    //OptionsButton btn = panel[i];
+                    //OptionButtonState state = btn.MarkedState;
                     btn.Update(current, previous);
                     if (btn.MarkedState != state)
                     {
@@ -170,4 +170,5 @@ namespace Chess
                 }
             }
         }
+        */
     }

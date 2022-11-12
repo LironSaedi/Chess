@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4FEGFdayvVMxaV0tKT74mKFVLVlYgywZd5NhRiSFtNBzlfUUhicjwUiCElxT5iMRr20XklmhQLCtG+V+Jo5QfA==",
+  "dgSpecHash": "/pZkkfq8hTaRq8ZNC5IQ9m0rfSXmURdasLUWLHWvyQAeMLGUoA2toz2ndcsWX1eLWsJDPtviHaeUQO8pMNxHtg==",
   "success": true,
-  "projectFilePath": "Z:\\Chess\\Chess\\Chess\\Chess.csproj",
+  "projectFilePath": "\\\\GMRDC1\\Folder Redirection\\Liron.Saedi\\Documents\\GitHub\\Chess\\Chess\\Chess\\Chess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Liron.Saedi\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "C:\\Users\\Liron.Saedi\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"

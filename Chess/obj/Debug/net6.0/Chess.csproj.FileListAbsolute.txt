@@ -64,3 +64,11 @@ Z:\Chess\Chess\Chess\obj\Debug\net6.0\refint\Chess.dll
 Z:\Chess\Chess\Chess\obj\Debug\net6.0\Chess.pdb
 Z:\Chess\Chess\Chess\obj\Debug\net6.0\Chess.genruntimeconfig.cache
 Z:\Chess\Chess\Chess\obj\Debug\net6.0\ref\Chess.dll
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\Chess.csproj.AssemblyReference.cache
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\Chess.GeneratedMSBuildEditorConfig.editorconfig
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\Chess.AssemblyInfoInputs.cache
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\Chess.AssemblyInfo.cs
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\Chess.csproj.CoreCompileInputs.cache
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\Chess.dll
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\refint\Chess.dll
+\\GMRDC1\Folder Redirection\Liron.Saedi\Documents\GitHub\Chess\Chess\Chess\obj\Debug\net6.0\Chess.pdb
